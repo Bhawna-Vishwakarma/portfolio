@@ -1,0 +1,33 @@
+header{
+    position: sticky;
+    top:0;
+    z-index: 10;
+    background-color: white;
+}
+.profile-name{
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    column-gap: 2rem;
+    font-size: .9rem;
+}
+.menu-link{
+    color: #000;
+    text-transform: capitalize;
+    transition: color 0.25s ease;
+}
+.menu-link:hover{
+    color: var(--primary-color);
+}
+

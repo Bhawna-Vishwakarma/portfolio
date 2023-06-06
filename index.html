@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/hero.css">
+    <link rel="stylesheet" href="./styles/about.css">
+
+
+    <title>Bhawna</title>
+</head>
+<body>
+
+    <main id="wrapper">
+        <!-- header section start from here -->
+        <header id="header">
+            <nav class="navbar">
+                <div class="profile-icon">
+                    <h2 class="profile-name"><a href="#">Bhawna Vishwakarma</a></h2>
+                </div>
+                <ul class="menu">
+                    <li class="menu-item"><a class="menu-link" href="#about">About me</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">My Skills</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">What i do</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#">Best Works</a></li>
+                    <li id="dark" class="menu-item" title="Dark-mode">
+                        <i class="fa-sharp fa-solid fa-circle-half-stroke"></i>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <!-- header section end from here -->
+
+        <!-- Hero section start from here -->
+        <section class="hero-section">
+            <div class="left">
+                <p>Welcome to my portfolio !..</p>
+                <h2 class="intro-heading">Hi, I am a web developer</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore, doloremque. Enim dolorum mollitia consequuntur quam minima quibusdam ratione. Dicta ullam reprehenderit temporibus quis tempora iure nobis repudiandae modi illo debitis, et ipsam omnis aliquam enim doloribus, est, assumenda odit! Cum cumque nemo quas et voluptate. Facilis officia consequatur harum pariatur?</p>
+                <h3 class="contect-text">Contect Me</h3>
+                <div class="contect-me">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+            <div id="right">
+                <img id="profile-image" src="images/bhawna_img.png" alt="Profile-image">
+            </div>
+        </section>
+        <!-- Hero section end from here -->
+
+        <!-- About section start from here -->
+        <section id="about">
+            <div class="about-left"></div>
+            <div class="about-right">
+                <p>Know about me !..</p>
+                <h2 class="about-heading">About Me</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem, id reprehenderit debitis suscipit, quos eveniet sapiente qui esse reiciendis, eos exercitationem cum. Rem voluptatem aperiam dicta magnam ex cum quam saepe et. Laborum temporibus consequuntur exercitationem veniam veritatis provident et minus dolor, repudiandae adipisci eius hic molestiae, beatae sed culpa! Deleniti, fugiat itaque expedita tenetur amet magni totam iusto, omnis, atque laudantium quia nisi quod? Dolore amet quos officiis dolores adipisci velit unde aspernatur veritatis, earum nemo quis voluptates numquam quisquam recusandae libero molestiae ipsa odio natus nobis odit! Perspiciatis corrupti quos corporis necessitatibus, eum repellat nihil iure nobis facilis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempora, doloribus? Possimus voluptatem, reprehenderit quos neque unde consectetur minus. Cupiditate dolore nostrum quo eaque nisi beatae, rem aperiam et vero ipsa.</p>
+            </div>
+        </section>
+        <!-- Hero section end from here -->
+
+    </main>
+<!-- light & Dark mode script -->
+<script>
+    let dark = document.getElementById("dark");
+    var links = document.querySelectorAll(".menu-link");
+    var navbar = document.getElementById("header");
+    var count=1;
+    dark.addEventListener( "click" , ()=>{
+        count++;
+        if(count%2 == 0){
+            document.body.style.backgroundColor = "black";
+            document.body.style.color = "white";
+            navbar.style.backgroundColor = "black";
+            links.forEach(link => {
+                link.style.color ="white";
+            });
+        }else{
+            document.body.style.backgroundColor = "";
+            document.body.style.color = "";
+            navbar.style.backgroundColor = "";
+            links.forEach(link => {
+                link.style.color ="";
+            });
+        }
+    });
+</script>
+</body>
+</html>
