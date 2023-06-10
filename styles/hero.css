@@ -1,24 +1,18 @@
-.hero-section, #about{
+.hero-section{
     height: calc(100vh - 70px);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* background-color: lightblue; */
+    /* background-color: aqua; */
 }
 .left{
     width: 50%;
+}
+.left, .left-content{
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    word-spacing: .3rem;
     text-align: justify;
-
-}
-.left p{
-    font-size: .9rem;
-} 
-.left .intro-heading{
-    font: 900 var(--section-main-heading) var(--section-heading-family);
 }
 .left .contect-text{
     background: linear-gradient(to right, var(--primary-color), var(--secondary-color));

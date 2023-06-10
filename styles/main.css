@@ -11,8 +11,7 @@ html{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    word-spacing: .3rem;
-    /* padding-top: 70px; */
+    word-spacing: .1rem;
 } 
 body a{
     text-decoration: none;
@@ -27,8 +26,18 @@ body i{
     padding: 0 20px;
 }
 :root{
-    --primary-color: #06bbf7;
-    --secondary-color: rgb(0, 255, 238);
+    /* --primary-color: #06bbf7;
+    --secondary-color: rgb(0, 255, 238); */
+    --primary-color: #ed34ff;
+    --secondary-color: rgb(255 184 124);
     --section-main-heading: 2rem;
     --section-heading-family: 'Roboto Slab', serif;
+}
+.section-heading{
+    font: 900 var(--section-main-heading) var(--section-heading-family);
+}
+.section-info-text{
+    color: var(--secondary-color);
+    font: 400 .8rem var(--section-heading-family);
+    text-transform: uppercase;
 }
