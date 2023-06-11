@@ -16,7 +16,7 @@ body{
 body a{
     text-decoration: none;
 }
-body i{
+body i, .language{
     cursor: pointer;
 }
 #wrapper{
@@ -38,6 +38,6 @@ body i{
 }
 .section-info-text{
     color: var(--secondary-color);
-    font: 400 .8rem var(--section-heading-family);
+    font: 400 1rem var(--section-heading-family);
     text-transform: uppercase;
 }

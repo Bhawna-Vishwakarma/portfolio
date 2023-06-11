@@ -1,5 +1,5 @@
 #skill-section{
-    height: calc(100vh - 70px);
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,9 +23,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease;
+    transition: all 0.15s ease;
 }
 .language:hover{
     transform: scale(1.3);
-    box-shadow: 2px 2px 4px lightgray;
+    box-shadow: 2px 2px 4px var(--secondary-color);
 }
