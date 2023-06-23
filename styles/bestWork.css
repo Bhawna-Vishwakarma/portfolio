@@ -1,0 +1,33 @@
+#bestWork-section{
+    height: calc(100vh - 70px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+}
+.bestWork-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
+.main-carousel{
+    width: 100%;
+    padding: 30px 40px 0;
+}
+.about-project{
+	height: 300px;
+    padding: 20px;
+    background: linear-gradient(to bottom right,var(--primary-color),var(--secondary-color));
+    text-align: center;
+}
+.project-title{
+    color: rgb(255, 255, 255);
+    font: bold 1.2rem/4 var(--section-heading-family);
+    text-transform: capitalize;
+}
+.project-description{
+    color: #000000;
+    font-size: .9rem;
+}

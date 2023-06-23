@@ -5,19 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/hero.css">
     <link rel="stylesheet" href="./styles/about.css">
     <link rel="stylesheet" href="./styles/skills.css">
     <link rel="stylesheet" href="./styles/whatIDo.css">
-
-
-
+    <link rel="stylesheet" href="./styles/bestWork.css">
     <title>Bhawna</title>
 </head>
 <body>
-
     <main id="wrapper">
         <!-- header section start from here -->
         <header id="header">
@@ -30,7 +28,7 @@
                     <li class="menu-item"><a class="menu-link" href="#about-section">About me</a></li>
                     <li class="menu-item"><a class="menu-link" href="#skill-section">My Skills</a></li>
                     <li class="menu-item"><a class="menu-link" href="#whatIDo-section">What i do</a></li>
-                    <li class="menu-item"><a class="menu-link" href="#">Best Works</a></li>
+                    <li class="menu-item"><a class="menu-link" href="#bestWork-section">Best Works</a></li>
                     <li id="dark" class="menu-item" title="Dark-mode">
                         <i class="fa-sharp fa-solid fa-circle-half-stroke"></i>
                     </li>
@@ -38,7 +36,6 @@
             </nav>
         </header>
         <!-- header section end from here -->
-
         <!-- Hero section start from here -->
         <section class="hero-section">
             <div class="left">
@@ -60,7 +57,6 @@
             </div>
         </section>
         <!-- Hero section end from here -->
-
         <!-- About section start from here -->
         <section id="about-section">
             <div class="about-left"></div>
@@ -71,13 +67,10 @@
             </div>
         </section>
         <!-- Hero section end from here -->
-
         <!-- skills section start from here -->
         <section id="skill-section">
-            <!-- <div class="skill-content"> -->
                 <p class="section-info-text">Visit my skills!..</p>
                 <h2 class="section-heading">My Skills</h2>
-            <!-- </div>     -->
             <div class="language-container">
                 <div class="language">Html</div>
                 <div class="language">Css</div>
@@ -92,11 +85,10 @@
             </div>
         </section>
         <!-- skills section end from here -->
-
         <!-- What I do section start from here -->
         <section id="whatIDo-section">
             <div class="whatIDo-head">
-                <p class="section-info-text">My Fretures !....</p>
+                <p class="section-info-text">My Fetures !....</p>
                 <h2 class="section-heading">What I Do</h2>
             </div>
             <div class="whatIDo-content">
@@ -115,33 +107,45 @@
             </div>
         </section>
         <!-- What I do section end from here -->
-
-
+        <!-- best works section start from here -->
+        <section id="bestWork-section">
+            <div class="bestWork-head">
+                <p class="section-info-text">About My Projects !....</p>
+                <h2 class="section-heading">My Best Works</h2>
+            </div>
+            <div class="main-carousel" data-flickity='{ 
+                "cellAlign": "left", 
+                "wrapAround": true, 
+                "draggable": true, 
+                "freeScroll": true,
+                "groupCells": true,
+                "fade": true,
+                "contain": true }'>
+                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/portfolio">
+                    <div class="about-project">
+                        <div class="project-title">My Portfolio</div>
+                        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non luptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquidoluptatibus inventore repellendus dignissim.</div>
+                    </div>
+                </a>
+                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/BouncingBallGame.git">
+                <div class="about-project">
+                    <div class="project-title">bounsing Ball Game</div>
+                    <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non.</div>
+                </div>
+                </a>
+                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/Doraemon.git">
+                    <div class="about-project">
+                        <div class="project-title">Printing doraemon on console using cpp</div>
+                        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non.</div>
+                    </div>
+                    </a>
+            </div>
+            
+        </section>
+        <!-- best works section end from here -->
     </main>
 <!-- light & Dark mode script -->
-<script>
-    let dark = document.getElementById("dark");
-    var links = document.querySelectorAll(".menu-link");
-    var navbar = document.getElementById("header");
-    var count=1;
-    dark.addEventListener( "click" , ()=>{
-        count++;
-        if(count%2 == 0){
-            document.body.style.backgroundColor = "black";
-            document.body.style.color = "white";
-            navbar.style.backgroundColor = "black";
-            links.forEach(link => {
-                link.style.color ="white";
-            });
-        }else{
-            document.body.style.backgroundColor = "";
-            document.body.style.color = "";
-            navbar.style.backgroundColor = "";
-            links.forEach(link => {
-                link.style.color ="";
-            });
-        }
-    });
-</script>
+<script src="script/darkMode.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 </html>

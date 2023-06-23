@@ -1,5 +1,5 @@
 #whatIDo-section{
-    height: calc(100vh - 70px);
+    height: 100vh;
     /* background: lavender; */
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    row-gap: 10px;
+    row-gap: 30px;
 }
 .whatIDo-content{
     display: flex;
