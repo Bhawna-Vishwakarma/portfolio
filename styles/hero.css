@@ -40,6 +40,9 @@
     display: flex;
     column-gap: 20px;
 }
+.contect-me a{
+    color: black;
+}
 .contect-me .fa-brands{
     transform: translateY(0);
     transition: all .15s ease;
