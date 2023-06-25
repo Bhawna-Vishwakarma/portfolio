@@ -1,6 +1,5 @@
 #whatIDo-section{
     height: 100vh;
-    /* background: lavender; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,21 +20,20 @@
     gap: 30px;
 }
 .do-container{
-    height: 250px;
+    min-height: 300px;
     width: 300px;
-    padding: 0 20px;
-    /* background-color: pink; */
+    padding: 20px;
     border: 2px solid;
     border-image: linear-gradient(to right, var(--primary-color), var(--secondary-color)) 1;
     display: flex;
     border-top-right-radius: 50%;
-    /* border-bottom-left-radius: 50%; */
     flex-direction: column;
     text-align: justify;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 30px;
     cursor: pointer;
     transition: all 0.15s ease;
+    position: relative;
 }
 .do-container:hover{
     transform: scale(1.2);
@@ -44,6 +42,15 @@
 .do-heading{
     font: 700 1.1rem var(--section-heading-family);
 }
+.do-heading::after{
+    content: " ";
+    height: 1px;
+    width: 200px;
+    background: var(--secondary-color);
+    position: absolute;
+    top: 50px;
+    left: 10px;
+}
 .do-description{
-    font:  .8rem var(--section-heading-family);
+    font: .8rem var(--section-heading-family);
 }
