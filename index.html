@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-	<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <link rel="stylesheet" href="./styles/main.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/hero.css">
@@ -24,12 +23,16 @@
                     <h2 class="profile-name"><a href="#">Bhawna Vishwakarma</a></h2>
                 </div>
                 <ul class="menu">
+                    <li id="drop-down">
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-xmark"></i>
+                    </li>
                     <li class="menu-item"><a class="menu-link" href="#">Home</a></li>
                     <li class="menu-item"><a class="menu-link" href="#about-section">About me</a></li>
                     <li class="menu-item"><a class="menu-link" href="#skill-section">My Skills</a></li>
                     <li class="menu-item"><a class="menu-link" href="#whatIDo-section">What i do</a></li>
                     <li class="menu-item"><a class="menu-link" href="#bestWork-section">Best Works</a></li>
-                    <li id="dark" class="menu-item" title="Dark-mode">
+                    <li class="menu-item" id="dark" title="Dark-mode">
                         <i class="fa-sharp fa-solid fa-circle-half-stroke"></i>
                     </li>
                 </ul>
@@ -46,13 +49,13 @@
                     <h3 class="contect-text">Contect Me</h3>
                 </div>
                 <div class="contect-me">
-                    <a target="_blank" href="https://www.linkedin.com/in/bhawna-vishwakarma-806726236"><i class="fa-brands fa-linkedin"></i></a>
-                    <a target="_blank" href="https://github.com/Bhawna-Vishwakarma"><i class="fa-brands fa-github"></i></a>
-                    <a target="_blank" href="mailto:bvishwakarma1008@gmail.com"><i class="fa-brands fa-google"></i></a>
+                    <a target="_blank" aria-label="linkedin account for contect" href="https://www.linkedin.com/in/bhawna-vishwakarma-806726236"><i class="fa-brands fa-linkedin"></i></a>
+                    <a target="_blank" aria-label="github account for contect" href="https://github.com/Bhawna-Vishwakarma"><i class="fa-brands fa-github"></i></a>
+                    <a target="_blank" aria-label="gmail account for contect" href="mailto:bvishwakarma1008@gmail.com"><i class="fa-brands fa-google"></i></a>
                 </div>
             </div>
             <div id="right">
-                <img id="profile-image" src="images/bhawna_img.png" alt="Profile-image">
+                <img id="profile-image" src="images/bhawna_img-rb.png" alt="Profile-image">
             </div>
         </section>
         <!-- Hero section end from here -->
@@ -68,8 +71,8 @@
         <!-- Hero section end from here -->
         <!-- skills section start from here -->
         <section id="skill-section">
-                <p class="section-info-text">Visit my skills!..</p>
-                <h2 class="section-heading">My Skills</h2>
+            <p class="section-info-text">Visit my skills!..</p>
+            <h2 class="section-heading">My Skills</h2>
             <div class="language-container">
                 <div class="language">Html</div>
                 <div class="language">Css</div>
@@ -112,39 +115,37 @@
                 <p class="section-info-text">About My Projects !....</p>
                 <h2 class="section-heading">My Best Works</h2>
             </div>
-            <div class="main-carousel" data-flickity='{ 
-                "cellAlign": "left", 
-                "wrapAround": true, 
-                "draggable": true, 
-                "freeScroll": true,
-                "groupCells": true,
-                "fade": true,
-                "contain": true }'>
-                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/portfolio">
-                    <div class="about-project">
-                        <div class="project-title">My Portfolio</div>
-                        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non luptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquidoluptatibus inventore repellendus dignissim.</div>
-                    </div>
-                </a>
-                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/BouncingBallGame.git">
-                <div class="about-project">
-                    <div class="project-title">bounsing Ball Game</div>
-                    <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non.</div>
-                </div>
-                </a>
-                <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/Doraemon.git">
-                    <div class="about-project">
-                        <div class="project-title">Printing doraemon structure on console using cpp</div>
-                        <div class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sequi autem quo neque, hic natus. Optio libero nulla necessitatibus, sint dolores beatae reprehenderit cumque. Molestias temporibus itaque voluptate dicta ullam laborum magni provident? Nemo tempore aspernatur quisquam. Sint eveniet aliquid nam praesentium atque alias repellendus non nisi natus voluptates, odio quidem, eaque esse doloribus unde expedita nesciunt ipsa inventore cum a. Recusandae eveniet ducimus nobis ullam nulla veniam fuga unde odit quod doloribus dolorem assumenda totam facilis voluptate est, libero nesciunt voluptatibus inventore repellendus dignissimos quis officiis veritatis fugiat blanditiis. Eos, voluptatibus? Excepturi optio natus aliquid, corrupti accusantium sint non.</div>
-                    </div>
+            <div class="project-container">
+                <div class="project">
+                    <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/portfolio">
+                        <div class="about-project">
+                            <h2 class="project-title">My Portfolio</h2>
+                            <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At accusamus repellat explicabo eaque consequatur exercitationem suscipit reiciendis porro quibusdam? Rerum neque maxime sequi odit ipsa dolorum quisquam quia quod fugit in ducimus quasi ad quam officiis ratione doloremque, repellat placeat voluptatibus consequuntur hic obcaecati soluta praesentium corporis adipisci? Amet, quis.</p>
+                        </div>
                     </a>
+                </div>
+                <div class="project">
+                    <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/BouncingBallGame.git">
+                        <div class="about-project">
+                            <h2 class="project-title">bounsing Ball Game</h2>
+                            <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At nemo optio sint doloremque vero libero facere dignissimos voluptate ipsum vel. Beatae id voluptates enim cumque inventore rem velit iure nesciunt incidunt atque rerum harum eius in accusamus dicta non, maiores quas a ut. Quidem, officiis inventore. Quas mollitia nam doloribus.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="project">
+                    <a target="_blank" href="https://github.com/Bhawna-Vishwakarma/Doraemon.git">
+                        <div class="about-project">
+                            <h2 class="project-title">Printing doraemon structure on console using cpp</h2>
+                            <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. At eum exercitationem voluptatibus consectetur, nostrum repellat distinctio laborum aliquam illum inventore cumque quos nihil recusandae officiis sit corrupti dolorum, vel, vero facilis ducimus perspiciatis? Sequi perspiciatis minus corrupti ipsum quisquam alias temporibus vel in. Illo asperiores, suscipit placeat nihil molestiae fuga?</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-            
         </section>
         <!-- best works section end from here -->
     </main>
 <!-- light & Dark mode script -->
 <script src="script/darkMode.js"></script>
-<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<script src="script/dropDown.js"></script>
 </body>
 </html>

@@ -52,3 +52,40 @@
     align-items: center;
     text-align: justify;
 }
+
+/* smaller screen size*/
+@media (max-width: 700px) {
+    #about-section{
+        height: auto;
+        flex-direction: column;
+        padding-top: 40px;
+    }
+    .about-left, .about-left::after{
+        display: none;
+    }
+    .about-right{
+        width: 100%;
+    }
+}
+@media (min-width: 500px) and (max-width:1024px){
+    #about-section{
+        height: auto;
+        padding-top: 30px;
+    }
+    .about-left:hover{
+        height: 340px;
+    }
+}
+/* medium screen size*/
+@media (min-width: 700px) and (max-width: 799px) {
+    .about-left{
+        height: 300px;
+    }
+    .about-left::after{
+        display: none;
+    }
+}
+/* larger screen size*/
+@media (min-width: 799px) and (max-width:1100px) {
+    
+}

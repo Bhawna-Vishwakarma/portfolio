@@ -1,33 +1,69 @@
 header{
     position: sticky;
     top:0;
-    z-index: 10;
+    z-index: 99;
     background-color: white;
-}
-.profile-name{
-    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 .navbar{
     height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+.profile-name{
+    background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .menu{
+    background-color: #fff;
     list-style: none;
     display: flex;
     column-gap: 2rem;
     font-size: .9rem;
 }
+#drop-down{
+    display: none;
+}
 .menu-link{
     color: #000;
     text-transform: capitalize;
-    transition: color 0.25s ease;
+    transition: all 0.25s ease;
 }
 .menu-link:hover{
     color: var(--primary-color);
+}
+/* smaller and medium screen size*/
+@media (max-width: 819px) {
+    .navbar{
+        height: 50px;
+        padding-top: 10px;
+        margin-bottom: 10px;
+        flex-direction: column;
+        align-items: normal;
+        row-gap: 20px;
+    }
+    .menu{
+        flex-direction: column;
+        row-gap: 15px;
+        align-items: center;
+    }
+    .menu-item{
+        display: none;
+    }
+    #drop-down{
+        display: block;
+        font-size: 20px;
+    }
+    .fa-bars, .fa-xmark{
+        position: absolute;
+        top: 12px;
+        right: 0;
+    }
+    .fa-xmark{
+        display: none;
+    }
 }
 

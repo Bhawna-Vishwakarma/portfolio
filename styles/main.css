@@ -29,7 +29,7 @@ body i, .language{
     /* --primary-color: #06bbf7;
     --secondary-color: rgb(0, 255, 238); */
     --primary-color: #ed34ff;
-    --secondary-color: rgb(255 184 124);
+    --secondary-color: rgb(249 134 37);
     --section-main-heading: 2rem;
     --section-heading-family: 'Roboto Slab', serif;
 }
@@ -40,4 +40,33 @@ body i, .language{
     color: var(--secondary-color);
     font: 400 1rem var(--section-heading-family);
     text-transform: uppercase;
+}
+
+/* smaller and medium screen size*/
+@media (max-width: 900px) {
+    body{
+        font-size: 13px;
+        word-spacing: normal;
+    }
+    #wrapper{
+        max-width: 100%;
+    }
+    .section-heading{
+        font: 900 1.5rem var(--section-heading-family);
+    }
+    .section-info-text{
+        font: 400 .7rem var(--section-heading-family);
+    }
+}
+/* medium screen size */
+@media (min-width: 500px) and (max-width: 900px) {
+    body{
+        font-size: 14px;
+    }
+    .section-heading{
+        font: 900 1.6rem var(--section-heading-family);
+    }
+    .section-info-text{
+        font: 400 .8rem var(--section-heading-family);
+    }
 }

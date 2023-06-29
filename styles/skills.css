@@ -10,7 +10,7 @@
     width: 80%;
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     gap: 30px 30px;
 }
@@ -27,4 +27,29 @@
 .language:hover{
     transform: scale(1.3);
     box-shadow: 2px 2px 4px var(--secondary-color);
+}
+
+/* smaller screen size*/
+@media (max-width: 1024px) {
+    #skill-section{
+        padding-top: 40px;
+        height: auto;
+        row-gap: 20px;
+    }
+    .language-container{
+        width: 100%;
+        gap: 20px 20px;
+    }
+    .language{
+        height: 100px;
+        width: 100px;
+    }
+    .language:hover{
+        transform: scale(1.1);
+    }
+}
+@media (min-width: 500px) and (max-width:950px){
+    #skill-section{
+        height: auto;
+    }
 }
