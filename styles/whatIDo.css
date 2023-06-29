@@ -1,3 +1,5 @@
+/* whatIDo section styling */
+/* ===================================== */
 #whatIDo-section{
     height: 100vh;
     display: flex;
@@ -56,7 +58,7 @@
     font: .8rem var(--section-heading-family);
 }
 
-/* smaller screen size*/
+/* whatIDo section for smaller screen size*/
 @media (max-width: 600px) {
     #whatIDo-section{
         height: auto;

@@ -29,8 +29,8 @@ body i, .language{
     /* --primary-color: #06bbf7;
     --secondary-color: rgb(0, 255, 238); */
     --primary-color: #ed34ff;
-    --secondary-color: rgb(249 134 37);
-    --section-main-heading: 2rem;
+    --secondary-color: #006fc5 /* #f98625*/;
+    --section-main-heading: 1.7rem;
     --section-heading-family: 'Roboto Slab', serif;
 }
 .section-heading{
@@ -54,9 +54,6 @@ body i, .language{
     .section-heading{
         font: 900 1.5rem var(--section-heading-family);
     }
-    .section-info-text{
-        font: 400 .7rem var(--section-heading-family);
-    }
 }
 /* medium screen size */
 @media (min-width: 500px) and (max-width: 900px) {
@@ -65,8 +62,5 @@ body i, .language{
     }
     .section-heading{
         font: 900 1.6rem var(--section-heading-family);
-    }
-    .section-info-text{
-        font: 400 .8rem var(--section-heading-family);
     }
 }

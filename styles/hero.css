@@ -1,3 +1,5 @@
+/* Hero section styling */
+/* ===================================== */
 .hero-section{
     height: calc(100vh - 70px);
     display: flex;
@@ -37,7 +39,7 @@
     width: 150px;
 }
 .contect-me{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     display: flex;
     column-gap: 20px;
 }
@@ -95,7 +97,7 @@
     object-position: top;
 }
 
-/* smaller screen size*/
+/* Hero section for smaller screen size*/
 @media (max-width: 799px) {
     .hero-section{
         padding-top: 40px;
@@ -116,7 +118,7 @@
         left: -5px;
     }
     .contect-me{
-        /* font-size: 1.2rem; */
+        font-size: 1.2rem;
         column-gap: 15px;
     }
     #right{
@@ -128,7 +130,7 @@
         display: none;
     }
 }
-/* medium screen size*/
+/* Hero section for medium screen size*/
 @media (min-width: 500px) and (max-width: 799px) {
     .left{
         width: 70%;
@@ -141,7 +143,7 @@
         padding-top: 30px;
     }
 }
-/* larger screen size*/
+/* Hero section for larger screen size*/
 @media (min-width: 799px) and (max-width:1100px) {
     #right{
         width: 300px;

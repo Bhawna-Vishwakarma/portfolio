@@ -1,5 +1,6 @@
+/* bestWork section styling */
+/* ===================================== */
 #bestWork-section{
-    /* height: calc(100vh - 70px); */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,7 +32,6 @@
     align-items: center;
     flex-direction: column;
     row-gap: 20px;
-    /* background: var(--primary-color); */
     transition: background 0.25s ease-in;
     background: linear-gradient(to bottom right,var(--primary-color),var(--secondary-color));
 }
@@ -46,10 +46,9 @@
 .project-description{
     color: #000000;
     font-size: .9rem;
-    /* text-align: justify; */
 }
 
-/* smaller screen size*/
+/* bestWork section for smaller screen size*/
 @media (max-width: 950px) {
     #bestWork-section{
         height: auto;

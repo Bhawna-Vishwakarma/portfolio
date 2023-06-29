@@ -1,3 +1,5 @@
+/* skills section styling */
+/* ===================================== */
 #skill-section{
     height: 100vh;
     display: flex;
@@ -29,7 +31,7 @@
     box-shadow: 2px 2px 4px var(--secondary-color);
 }
 
-/* smaller screen size*/
+/* Skill section for smaller screen size*/
 @media (max-width: 1024px) {
     #skill-section{
         padding-top: 40px;

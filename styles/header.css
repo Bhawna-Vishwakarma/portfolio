@@ -1,3 +1,5 @@
+/* Header section styling */
+/* ===================================== */
 header{
     position: sticky;
     top:0;
@@ -35,7 +37,7 @@ header{
 .menu-link:hover{
     color: var(--primary-color);
 }
-/* smaller and medium screen size*/
+/* header for smaller and medium screen size*/
 @media (max-width: 819px) {
     .navbar{
         height: 50px;

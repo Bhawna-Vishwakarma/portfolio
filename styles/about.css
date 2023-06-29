@@ -1,3 +1,5 @@
+/* About section styling */
+/* ===================================== */
 #about-section{
     height: 100vh;
     display: flex;
@@ -9,7 +11,7 @@
     width: 40%;
     text-align: center;
     border: 1px solid var(--primary-color);
-    background: url("../images/bhawna_img-rb.png") no-repeat top/cover;
+    background: url("../images/bhawna_img-rb.webp") no-repeat top/cover;
     position: relative;
     display: flex;
     justify-content: center;
@@ -53,7 +55,7 @@
     text-align: justify;
 }
 
-/* smaller screen size*/
+/* About section for smaller screen size*/
 @media (max-width: 700px) {
     #about-section{
         height: auto;
@@ -76,7 +78,7 @@
         height: 340px;
     }
 }
-/* medium screen size*/
+/* About section for medium screen size*/
 @media (min-width: 700px) and (max-width: 799px) {
     .about-left{
         height: 300px;
@@ -84,8 +86,4 @@
     .about-left::after{
         display: none;
     }
-}
-/* larger screen size*/
-@media (min-width: 799px) and (max-width:1100px) {
-    
 }
