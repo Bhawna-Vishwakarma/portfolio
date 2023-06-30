@@ -367,10 +367,12 @@ header{
     color: rgb(255, 255, 255);
     font: bold 1.1rem var(--section-heading-family);
     text-transform: capitalize;
+    text-align: center;
 }
 .project-description{
     color: #000000;
     font-size: .9rem;
+    text-align: justify;
 }
 /* Global styling for smaller and medium screen size*/
 @media (max-width: 900px) {
