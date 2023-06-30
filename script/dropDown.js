@@ -2,6 +2,10 @@ let bar = document.querySelector(".fa-bars");
 let cancel = document.querySelector(".fa-xmark");
 let menuItems = document.querySelectorAll(".menu-item");
 
+// for hidding cancle button from screen directly
+if(window.innerWidth <= 819 ){
+    cancel.style.display= "none";
+}
 // enable dropdown
 bar.addEventListener("click", ()=>{
     menuItems.forEach(item => {

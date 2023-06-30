@@ -1,11 +1,10 @@
 let dark = document.getElementById("dark");
-var links = document.querySelectorAll(".menu-link");
-var navbar = document.getElementById("header");
-var menu = document.querySelector(".menu");
-var icon = document.querySelectorAll(".fa-brands");
+let links = document.querySelectorAll(".menu-link");
+let navbar = document.getElementById("header");
+let menu = document.querySelector(".menu");
+let icon = document.querySelectorAll(".fa-brands");
+let count=1;
 
-
-var count=1;
 dark.addEventListener( "click" , ()=>{
     count++;
     // enable dark mode
