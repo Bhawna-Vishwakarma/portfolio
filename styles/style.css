@@ -456,6 +456,9 @@ header{
     #right::after{
         display: none;
     }
+    #right:hover{
+        height: 150px;
+    }
 }
 /* Hero section for medium screen size*/
 @media (min-width: 500px) and (max-width: 799px) {
