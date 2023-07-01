@@ -349,11 +349,11 @@ header{
     gap: 30px;
 }
 .about-project{
-    width: 300px;
+    width: 200px;
+    min-height: 300px;
     border-radius: 5px;
     display: flex;
     padding: 20px;
-    aspect-ratio: 1/1;
     justify-content: start;
     align-items: center;
     flex-direction: column;
