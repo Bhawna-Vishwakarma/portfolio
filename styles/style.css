@@ -340,7 +340,7 @@ header{
 }
 .project-container{
     width: 100%;
-    height: calc(100vh - 40vh);
+    /* height: calc(100vh - 40vh); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -388,6 +388,11 @@ header{
     }
 }
 /* Global styling for medium screen size */
+@media (min-width: 1200px){
+    body {
+        overflow: hidden;
+    }
+}
 @media (min-width: 500px) and (max-width: 900px) {
     body{
         font-size: 14px;
