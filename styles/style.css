@@ -589,8 +589,7 @@ header{
 /* bestWork section for smaller screen size*/
 @media (max-width: 1100px) and (max-height: 900px){
     #bestWork-section{
-        height: max-content;
-        /* padding-top: 50px; */
+        height: auto;
     }
 }
 @media (max-width: 950px) {
