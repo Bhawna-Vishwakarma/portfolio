@@ -575,7 +575,7 @@ header{
 @media (min-width: 500px) and (max-width:1100px){
     #whatIDo-section{
         height: max-content;
-        padding-top: 30px;
+        padding-top: 40px;
     }
     .whatIDo-head{
         row-gap: 20px;
@@ -590,6 +590,7 @@ header{
 @media (max-width: 1100px) and (max-height: 900px){
     #bestWork-section{
         height: max-content;
+        padding-top: 50px;
     }
 }
 @media (max-width: 950px) {
