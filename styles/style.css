@@ -527,8 +527,8 @@ header{
 /* Skill section for smaller screen size*/
 @media (max-width: 1024px) {
     #skill-section{
-        padding-top: 40px;
         height: auto;
+        padding-top: 40px;
         row-gap: 20px;
     }
     .language-container{
@@ -543,7 +543,7 @@ header{
         transform: scale(1.1);
     }
 }
-@media (min-width: 500px) and (max-width:950px){
+@media (min-width: 500px) and (max-width:1100px){
     #skill-section{
         height: auto;
     }
@@ -573,7 +573,7 @@ header{
         width: 90%;
     }
 }
-@media (min-width: 500px) and (max-width:912px){
+@media (min-width: 500px) and (max-width:1100px){
     #whatIDo-section{
         height: auto;
         padding-top: 30px;
@@ -585,7 +585,6 @@ header{
 /* bestWork section for smaller screen size*/
 @media (max-width: 950px) {
     #bestWork-section{
-        height: auto;
         padding-top: 40px;
         row-gap: 20px;
     }
@@ -594,5 +593,10 @@ header{
     }
     .about-project{
         width: 250px;
+    }
+}
+@media (max-width:1100px){
+    #bestWork-section{
+        height: auto;
     }
 }
