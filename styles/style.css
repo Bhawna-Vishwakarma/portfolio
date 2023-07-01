@@ -590,12 +590,12 @@ header{
 @media (max-width: 1100px) and (max-height: 900px){
     #bestWork-section{
         height: max-content;
-        padding-top: 50px;
+        /* padding-top: 50px; */
     }
 }
 @media (max-width: 950px) {
     #bestWork-section{
-        padding-top: 40px;
+        padding-top: 50px;
         row-gap: 20px;
     }
     .bestWork-head{
