@@ -326,6 +326,7 @@ header{
 /* bestWork section styling */
 /* ===================================== */
 #bestWork-section{
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
